@@ -46,3 +46,45 @@ The application follows a layered architecture:
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
+
+2. Set up MySQL DB and update `application.properties`.
+
+3. Run the application:
+```bash
+mvn spring-boot:run
+```
+
+4. Access the APIs using Postman or your browser.
+
+---
+
+## 📂 Sample Endpoints
+
+- `POST /users` – Create user
+- `GET /users` – List users
+- `POST /accounts` – Open bank account
+- `POST /transfer` – Transfer funds
+- `POST /transactions` – Add transaction
+- `POST /loans/apply` – Apply for loan
+
+---
+
+## 🔐 Validation & Error Handling
+
+- DTOs with `@NotNull`, `@Email`, `@Size`, etc.
+- Global exception handling using `@ControllerAdvice`
+- Custom error messages for all validation failures
+
+---
+
+## ✅ Future Enhancements
+
+- JWT-based authentication and user roles
+- Swagger/OpenAPI documentation
+- Frontend client using Angular
+- 
+## 👨‍💻 Author
+
+**Yeswanth Sai Kumar Velugoti**  
+[Email](mailto:yeswanthvelugoti@gmail.com) • [LinkedIn](https://www.linkedin.com/in/yeswanth-velugoti-4290741a0/)
+
