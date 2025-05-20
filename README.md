@@ -82,7 +82,7 @@ mvn spring-boot:run
 - JWT-based authentication and user roles
 - Swagger/OpenAPI documentation
 - Frontend client using Angular
-- 
+  
 ## 👨‍💻 Author
 
 **Yeswanth Sai Kumar Velugoti**  
