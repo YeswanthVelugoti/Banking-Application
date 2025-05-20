@@ -44,8 +44,8 @@ The application follows a layered architecture:
 
 1. Clone the project:
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/YeswanthVelugoti/Banking-Application.git
+cd Banking-Application
 
 2. Set up MySQL DB and update `application.properties`.
 
